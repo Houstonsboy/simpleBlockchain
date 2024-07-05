@@ -1,0 +1,16 @@
+Gift Coin (GC)
+
+SHA256 -hashing
+t1: transaction1 Gift to Jimmy
+t2: Linet to Gift
+t3: Brenda to Alfred
+SHA256
+
+block1("AAA",t1,t2,t3) -> 76fd89
+block2("76fd89", t4,t5,t6) ->46kp98
+
+NeuralHash()
+{
+    concatenate the transactions an d append previous HASH block then hash
+}
+
